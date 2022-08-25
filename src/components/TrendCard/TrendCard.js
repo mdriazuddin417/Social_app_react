@@ -4,7 +4,7 @@ import { TrendData } from "../data/TrendData";
 const TrendCard = () => {
   return (
     <div className="TrendCard">
-      <h3>Trend for you</h3>
+      <h3>Trends for you</h3>
       {TrendData.map((trend) => {
         return (
           <div className="trend">
